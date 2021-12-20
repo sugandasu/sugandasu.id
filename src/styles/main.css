@@ -1,0 +1,123 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  padding: 40px 20px;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.header-title > a {
+  text-decoration: none;
+}
+
+.header-subtitle {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav > ul > li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav > ul > li > a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav > ul > li > a:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.short-introduction {
+  margin-bottom: 40px;
+}
+
+.short-introduction-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.short-introduction-body > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-body {
+  padding: 20px 0;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.page-content {
+  padding: 20px 0;
+}
+
+.page-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
