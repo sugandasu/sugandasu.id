@@ -17,6 +17,7 @@ const IndexPage = () => {
             My blogs are about my journey as a software engineer, projects,
             hobbies, and topics that I find interesting.
           </p>
+          <p>This website is under construction 🙂</p>
           <p>
             <Link to="/about">More info...</Link>
           </p>
